@@ -5,13 +5,21 @@
 
  pkg upgrade 
 
- pkg install git pkg install python2 
+ pkg install git 
+
+ pkg install python2 
 
  pip2 install requests 
 
  pip2 install mechanize 
 
  pip2 install bs4
+
+ git clone https://github.com/Amar-star1/spam
+
+ cd spam
+
+ python2 KomplitSpam.py
 
 # TOKEN
 
